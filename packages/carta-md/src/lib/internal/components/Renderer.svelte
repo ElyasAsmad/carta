@@ -42,7 +42,7 @@
 	const events = createEventDispatcher<{ render: void }>();
 </script>
 
-<div bind:this={elem} on:scroll class="carta-renderer markdown-body">
+<div bind:this={elem} on:scroll class="carta-renderer markdown-body prose lg:prose-xl">
 	<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 	{@html renderedHtml}
 	{#if mounted}
