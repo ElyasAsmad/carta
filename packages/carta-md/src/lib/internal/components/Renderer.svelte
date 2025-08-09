@@ -70,7 +70,7 @@
 </script>
 
 <div
-	class="carta-renderer markdown-body"
+	class="carta-renderer markdown-body prose lg:prose-xl"
 	style="display: {hidden ? 'none' : 'unset'};"
 	bind:this={elem}
 	{onscroll}
